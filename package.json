@@ -35,6 +35,10 @@
     "resolve-url-loader": "~2.3",
     "sass": "~1.17",
     "sass-loader": "~7.1",
+    "stylelint": "~9.10",
+    "stylelint-config-airbnb": "~0.0",
+    "stylelint-order": "~2.1",
+    "stylelint-scss": "~3.5",
     "vue-template-compiler": "~2.6"
   }
 }

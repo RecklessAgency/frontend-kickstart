@@ -1,4 +1,5 @@
 # frontend-kickstart
+
 A frontend setup to kickstart your web development project.
 
 ## Install
@@ -9,13 +10,17 @@ A frontend setup to kickstart your web development project.
 4. `npm install`
 
 ## What's Included?
-* Webpack (Laravel Mix)
-* Bootstrap 4
-* jQuery
-* Vue.js
-* Airbnb's ESLint and Prettier configs
+
+- Webpack (Laravel Mix)
+- Bootstrap 4
+- jQuery
+- Vue.js
+- Airbnb's styleguides (ESLint, Prettier and Stylelint)
 
 ## VS Code
+
 If you're using VS Code you can install both ESLint and Prettier extensions to get linting and autofixing.
-* https://github.com/Microsoft/vscode-eslint
-* https://github.com/prettier/prettier-vscode
+
+- https://github.com/Microsoft/vscode-eslint
+- https://github.com/prettier/prettier-vscode
+- https://github.com/shinnn/vscode-stylelint
