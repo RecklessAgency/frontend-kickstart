@@ -1,5 +1,5 @@
 # frontend-kickstart
-A frontend setup to kickstart your development
+A frontend setup to kickstart your web development project.
 
 ## Install
 
