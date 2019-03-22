@@ -17,5 +17,5 @@ A frontend setup to kickstart your web development project.
 
 ## VS Code
 If you're using VS Code you can install both ESLint and Prettier extensions to get linting and autofixing.
-https://github.com/Microsoft/vscode-eslint
-https://github.com/prettier/prettier-vscode
+* https://github.com/Microsoft/vscode-eslint
+* https://github.com/prettier/prettier-vscode
