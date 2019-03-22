@@ -14,3 +14,8 @@ A frontend setup to kickstart your web development project.
 * jQuery
 * Vue.js
 * Airbnb's ESLint and Prettier configs
+
+## VS Code
+If you're using VS Code you can install both ESLint and Prettier extensions to get linting and autofixing.
+https://github.com/Microsoft/vscode-eslint
+https://github.com/prettier/prettier-vscode
