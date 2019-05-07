@@ -17,6 +17,13 @@ A frontend setup to kickstart your web development project.
 - Vue.js
 - Airbnb's styleguides (ESLint, Prettier and Stylelint)
 
+## Airbnb
+
+Instead of reinventing the wheel, we're using Airbnb's very well thought out coding styleguides. Read about them below:
+
+* https://github.com/airbnb/javascript
+* https://github.com/airbnb/css
+
 ## VS Code
 
 If you're using VS Code you can install both ESLint and Prettier extensions to get linting and autofixing.
