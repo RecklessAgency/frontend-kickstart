@@ -28,3 +28,6 @@ require('./bootstrap');
 // const app = new Vue({
 //   el: '#app'
 // });
+
+// Components
+require('../../frontend-snippets/components/hero-full-screen/hero-full-screen');
