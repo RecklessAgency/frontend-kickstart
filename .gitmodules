@@ -1,0 +1,3 @@
+[submodule "frontend-snippets"]
+	path = frontend-snippets
+	url = git@rnm.git.beanstalkapp.com:/rnm/frontend-snippets.git
