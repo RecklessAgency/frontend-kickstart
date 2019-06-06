@@ -106,6 +106,26 @@
 
 /***/ }),
 
+/***/ "./frontend-snippets/components/hero-internal/hero-internal.js":
+/*!*********************************************************************!*\
+  !*** ./frontend-snippets/components/hero-internal/hero-internal.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
+  $('.hero-internal').slick({
+    prevArrow: '<button class="slick-prev"></button>',
+    nextArrow: '<button class="slick-next"></button>',
+    infinite: false,
+    dots: true,
+    mobileFirst: true
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
+
+/***/ }),
+
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -39832,6 +39852,8 @@ __webpack_require__(/*! ./bootstrap */ "./src/js/bootstrap.js"); // window.Vue =
 __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/slick.js");
 
 __webpack_require__(/*! ../../frontend-snippets/components/hero-full-screen/hero-full-screen */ "./frontend-snippets/components/hero-full-screen/hero-full-screen.js");
+
+__webpack_require__(/*! ../../frontend-snippets/components/hero-internal/hero-internal */ "./frontend-snippets/components/hero-internal/hero-internal.js");
 
 /***/ }),
 

@@ -32,3 +32,4 @@ require('./bootstrap');
 // Components
 require('slick-carousel');
 require('../../frontend-snippets/components/hero-full-screen/hero-full-screen');
+require('../../frontend-snippets/components/hero-internal/hero-internal');

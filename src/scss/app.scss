@@ -4,4 +4,9 @@ body{
 }
 
 @import '~bootstrap/scss/bootstrap.scss';
+@import "~slick-carousel/slick/slick";
+@import '../../frontend-snippets/components/slick-components/slick-arrows';
+@import '../../frontend-snippets/components/slick-components/slick-dots';
+
 @import '../../frontend-snippets/components/hero-full-screen/style';
+@import '../../frontend-snippets/components/hero-internal/style';
