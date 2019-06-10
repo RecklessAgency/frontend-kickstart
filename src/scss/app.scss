@@ -3,12 +3,23 @@ body{
   margin: 0;
 }
 
-@import '~bootstrap/scss/bootstrap.scss';
-@import "~slick-carousel/slick/slick";
-@import '../../frontend-snippets/components/slick-components/slick-arrows';
-@import '../../frontend-snippets/components/slick-components/slick-dots';
+@import '../../frontend-snippets/variables';
+@import '../../frontend-snippets/utilities/utilities';
 
+//Bootstrap + Functions
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+//Slick Slider
+@import "~slick-carousel/slick/slick";
+
+
+//Components
 @import '../../frontend-snippets/components/hero-full-screen/style';
 @import '../../frontend-snippets/components/hero-internal/style';
 @import '../../frontend-snippets/components/page-title/style';
 @import '../../frontend-snippets/components/card/article/style';
+@import '../../frontend-snippets/components/card/product/style';
+@import '../../frontend-snippets/components/card/category/style';
+@import '../../frontend-snippets/components/card/testimonial/style';
+@import '../../frontend-snippets/components/card/block/style';

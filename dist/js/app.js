@@ -86,6 +86,48 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./frontend-snippets/components/card/block/card-block.js":
+/*!***************************************************************!*\
+  !*** ./frontend-snippets/components/card/block/card-block.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
+  $('.card-carousel').slick({
+    prevArrow: '<button class="slick-prev"></button>',
+    nextArrow: '<button class="slick-next"></button>',
+    infinite: false,
+    dots: true,
+    mobileFirst: true,
+    responsive: [{
+      breakpoint: 0,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        swipeToSlide: true,
+        centerMode: true,
+        centerPadding: "30px"
+      }
+    }, {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true,
+        swipeToSlide: true
+      }
+    }, {
+      breakpoint: 1100,
+      settings: {}
+    }]
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
+
+/***/ }),
+
 /***/ "./frontend-snippets/components/hero-full-screen/hero-full-screen.js":
 /*!***************************************************************************!*\
   !*** ./frontend-snippets/components/hero-full-screen/hero-full-screen.js ***!
@@ -39854,6 +39896,8 @@ __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/s
 __webpack_require__(/*! ../../frontend-snippets/components/hero-full-screen/hero-full-screen */ "./frontend-snippets/components/hero-full-screen/hero-full-screen.js");
 
 __webpack_require__(/*! ../../frontend-snippets/components/hero-internal/hero-internal */ "./frontend-snippets/components/hero-internal/hero-internal.js");
+
+__webpack_require__(/*! ../../frontend-snippets/components/card/block/card-block */ "./frontend-snippets/components/card/block/card-block.js");
 
 /***/ }),
 
