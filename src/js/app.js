@@ -28,9 +28,3 @@ require('./bootstrap');
 // const app = new Vue({
 //   el: '#app'
 // });
-
-// Components
-require('slick-carousel');
-require('../../frontend-snippets/components/hero-full-screen/hero-full-screen');
-require('../../frontend-snippets/components/hero-internal/hero-internal');
-require('../../frontend-snippets/components/card/block/card-block');
