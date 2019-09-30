@@ -7,17 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
     <link rel="stylesheet" href="css/app.css">
-    <script src="js/app.js"></script>
+
 
 </head>
 <body>
-<h1 class="mt-4">Hero Full Screen</h1>
-<?php include '../frontend-snippets/components/hero-full-screen/hero-full-screen.html'; ?>
-<h1 class="mt-4">Hero Internal</h1>
-<?php include '../frontend-snippets/components/hero-internal/hero-internal.html'; ?>
-<h1 class="mt-4">Page Title</h1>
+
+<?php //include '../frontend-snippets/components/hero-full-screen/hero-full-screen.html'; ?>
+<?php //include '../frontend-snippets/components/hero-internal/hero-internal.html'; ?>
+<h1 class="mt-4 text-center">Hero Full Screen - Swiper</h1>
+<?php include '../frontend-snippets/components/hero-full-screen-swiper/hero-full-screen-swiper.html'; ?>
+<h1 class="mt-4 text-center">Hero Internal Swiper</h1>
+<?php include '../frontend-snippets/components/hero-internal-swiper/hero-internal-swiper.html'; ?>
+<h1 class="mt-4 text-center">Page Title</h1>
 <?php include '../frontend-snippets/components/page-title/page-title.html'; ?>
-<h1 class="mt-4">Article</h1>
+<h1 class="mt-4 text-center">Article</h1>
 <div class="container">
     <div class="row">
         <div class="col-12 col-lg-4">
@@ -31,7 +34,7 @@
         </div>
     </div>
 </div>
-<h1 class="mt-4">Product</h1>
+<h1 class="mt-4 text-center">Product</h1>
 <div class="container">
     <div class="row">
         <div class="col-12 col-lg-4">
@@ -45,7 +48,7 @@
         </div>
     </div>
 </div>
-<h1 class="mt-4">Category</h1>
+<h1 class="mt-4 text-center">Category</h1>
 <div class="container">
     <div class="row">
         <div class="col-12 col-lg-4">
@@ -59,7 +62,7 @@
         </div>
     </div>
 </div>
-<h1 class="mt-4">Testimonial</h1>
+<h1 class="mt-4 text-center">Testimonial</h1>
 <div class="container">
     <div class="row">
         <div class="col-12 col-lg-4">
@@ -74,7 +77,7 @@
     </div>
 </div>
 
-<h1 class="mt-4">Testimonial (Stars)</h1>
+<h1 class="mt-4 text-center">Testimonial (Stars)</h1>
 <div class="container">
     <div class="row">
         <div class="col-12 col-lg-4">
@@ -89,42 +92,28 @@
     </div>
 </div>
 
-<h1 class="mt-4">Card Block</h1>
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div class="card-block">
-                <div class="card-carousel row"
-                     data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<h1 class="mt-4 text-center">Card Block 3</h1>
+<?php include '../frontend-snippets/components/card/block/card-block.html'; ?>
 
-<h1 class="mt-4">Card Block</h1>
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div class="card-block">
-                <div class="card-carousel row" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                    <div class="col"><?php include '../frontend-snippets/components/card/product/card-product.html'; ?></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<h1 class="mt-4 text-center">Card Block 4</h1>
+<?php include '../frontend-snippets/components/card/block/card-block-4.html'; ?>
 
+<h1 class="mt-4 text-center">Card Block Review </h1>
+<?php include '../frontend-snippets/components/card/block/card-block-review.html'; ?>
+
+<h1 class="mt-4 text-center">Gallery Block Review </h1>
+<?php include '../frontend-snippets/components/card/block/card-block-gallery.html'; ?>
+
+<h1 class="mt-4 text-center">Image Grid </h1>
+<?php include '../frontend-snippets/components/image-grid/image-grid.html'; ?>
+
+<h1 class="mt-4 text-center">Promotional Half Left/Right </h1>
+<?php include '../frontend-snippets/components/promotional-slider/promotional-slider.html'; ?>
+
+<h1 class="mt-4 text-center">Full Width Content </h1>
+<?php include '../frontend-snippets/components/full-width-content/full-width-content.html'; ?>
+
+<?php include 'bootstrap-test-page.php'; ?>
+<script src="js/app.js"></script>
 </body>
 </html>

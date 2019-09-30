@@ -2,24 +2,36 @@ body{
   padding: 0;
   margin: 0;
 }
-
 @import '../../frontend-snippets/variables';
-@import '../../frontend-snippets/utilities/utilities';
 
 //Bootstrap + Functions
 @import '~bootstrap/scss/bootstrap.scss';
+
+//Component extenders
+@import '../../frontend-snippets/utilities/components/button-icons';
+@import '../../frontend-snippets/utilities/components/headings-mobile';
+
 
 
 //Slick Slider
 @import "~slick-carousel/slick/slick";
 
+//Swiper
+@import '~swiper/dist/css/swiper';
+
 
 //Components
-@import '../../frontend-snippets/components/hero-full-screen/style';
-@import '../../frontend-snippets/components/hero-internal/style';
+@import '../../frontend-snippets/components/hero-full-screen-swiper/style';
+@import '../../frontend-snippets/components/hero-internal-swiper/style';
 @import '../../frontend-snippets/components/page-title/style';
 @import '../../frontend-snippets/components/card/article/style';
 @import '../../frontend-snippets/components/card/product/style';
 @import '../../frontend-snippets/components/card/category/style';
 @import '../../frontend-snippets/components/card/testimonial/style';
 @import '../../frontend-snippets/components/card/block/style';
+@import '../../frontend-snippets/components/image-grid/style';
+@import '../../frontend-snippets/components/promotional-slider/style';
+@import '../../frontend-snippets/components/full-width-content/style';
+
+
+

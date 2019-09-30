@@ -31,6 +31,10 @@ require('./bootstrap');
 
 // Components
 require('slick-carousel');
+require('swiper');
 require('../../frontend-snippets/components/hero-full-screen/hero-full-screen');
+require('../../frontend-snippets/components/hero-full-screen-swiper/hero-full-screen-swiper');
 require('../../frontend-snippets/components/hero-internal/hero-internal');
 require('../../frontend-snippets/components/card/block/card-block');
+require('../../frontend-snippets/components/image-grid/image-grid');
+require('../../frontend-snippets/components/promotional-slider/promotional-slider');
