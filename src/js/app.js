@@ -30,7 +30,6 @@ require('./bootstrap');
 // });
 
 // Components
-require('slick-carousel');
 require('swiper');
 require('../../frontend-snippets/components/hero-full-screen/hero-full-screen');
 require('../../frontend-snippets/components/hero-full-screen-swiper/hero-full-screen-swiper');

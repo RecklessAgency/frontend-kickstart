@@ -11,6 +11,15 @@
 
 const mix = require('laravel-mix');
 
+const webpack = require('webpack');
+
+mix.webpackConfig({
+  // ... rest of webpack config
+  plugins: [
+    new webpack.IgnorePlugin(/^codemirror$/),
+  ],
+});
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -22,7 +31,16 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('src/js/app.js', 'dist/js')
+/*
+ * FRONTEND
+ */
+mix.setPublicPath('./');
+
+// Trail
+mix.autoload({
+  jquery: ['$', 'jQuery', 'jquery', 'window.jQuery', 'window.$'],
+})
+  .js('src/js/app.js', 'dist/js')
   .version();
 
 mix.sass('src/scss/app.scss', 'dist/css')

@@ -32,11 +32,14 @@
     "postcss-flexbugs-fixes": "^4.1.0",
     "resolve-url-loader": "~3",
     "sass": "^1.21.0",
-    "sass-loader": "~8.0",
     "stylelint": "^10.1.0",
     "stylelint-config-airbnb": "~0",
     "stylelint-order": "~3",
     "stylelint-scss": "^3.8.0",
     "vue-template-compiler": "~2"
+  },
+  "devDependencies": {
+    "sass-loader": "^7.3.1",
+    "swiper": "^5.0.4"
   }
 }
