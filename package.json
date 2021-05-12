@@ -40,6 +40,6 @@
   },
   "devDependencies": {
     "sass-loader": "^7.3.1",
-    "swiper": "^5.0.4"
+    "swiper": "^6.5.1"
   }
 }
